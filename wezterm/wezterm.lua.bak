@@ -1,0 +1,20 @@
+local wezterm = require("wezterm")
+local config = wezterm.config_builder()
+
+config.color_scheme = "Tokyo Night"
+config.window_background_opacity = 1
+config.window_decorations = "RESIZE"   -- без кнопок
+config.font = wezterm.font("JetBrains Mono", { weight = "Regular" })
+config.font_size = 15.0
+config.enable_tab_bar = false
+config.use_fancy_tab_bar = true
+config.tab_bar_at_bottom = true
+config.window_padding = { left = 5, right = 5, top = 5, bottom = 5 }
+config.window_decorations = "NONE"
+
+-- Надёжная максимизация при загрузке конфига
+wezterm.on("window-config-reloaded", function(window, pane)
+    window:maximize()
+end)
+
+return config
