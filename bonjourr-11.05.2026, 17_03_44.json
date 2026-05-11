@@ -1,0 +1,373 @@
+{
+  "about": {
+    "browser": "chrome",
+    "version": "22.1.0"
+  },
+  "analogstyle": {
+    "background": "#fff2",
+    "border": "#ffff",
+    "face": "none",
+    "hands": "modern",
+    "shape": "round"
+  },
+  "announcements": "major",
+  "backgrounds": {
+    "blur": 25,
+    "bright": 0.25,
+    "color": "#185A63",
+    "fadein": 0,
+    "frequency": "pause",
+    "images": "bonjourr-images-daylight",
+    "mute": true,
+    "pausedImage": {
+      "color": "#405973",
+      "download": "https://unsplash.com/photos/kuLkCdxBheY/download?ixid=M3w4ODczOHwwfDF8YWxsfHx8fHx8fHx8MTc1OTU5NjI5MHw",
+      "exif": {
+        "aperture": "4.0",
+        "exposure_time": "1/640",
+        "focal_length": "12.5",
+        "iso": 400,
+        "make": "FUJIFILM",
+        "model": "X-T4",
+        "name": "FUJIFILM, X-T4"
+      },
+      "format": "image",
+      "name": "Francesco Ungaro",
+      "page": "https://unsplash.com/photos/a-snow-covered-mountain-range-with-trees-in-the-foreground-kuLkCdxBheY",
+      "urls": {
+        "full": "https://images.unsplash.com/photo-1707755211367-d3eada35e2a5?ixid=M3w4ODczOHwwfDF8YWxsfHx8fHx8fHx8MTc1OTU5NjI5MHw&ixlib=rb-4.1.0&auto=format&fit=crop&crop=entropy&h=1080&w=1920&q=80",
+        "medium": "https://images.unsplash.com/photo-1707755211367-d3eada35e2a5?ixid=M3w4ODczOHwwfDF8YWxsfHx8fHx8fHx8MTc1OTU5NjI5MHw&ixlib=rb-4.1.0&auto=format&fit=crop&crop=entropy&h=540&w=960&q=50",
+        "small": "https://images.unsplash.com/photo-1707755211367-d3eada35e2a5?ixid=M3w4ODczOHwwfDF8YWxsfHx8fHx8fHx8MTc1OTU5NjI5MHw&ixlib=rb-4.1.0&auto=format&fit=crop&crop=entropy&h=108&w=192&q=60"
+      },
+      "username": "francesco_ungaro"
+    },
+    "queries": {
+      "unsplash-images-search": ""
+    },
+    "texture": {
+      "type": "none"
+    },
+    "type": "images",
+    "urls": "",
+    "videos": "bonjourr-videos-daylight"
+  },
+  "clock": {
+    "ampm": false,
+    "ampmlabel": false,
+    "ampmposition": "top-left",
+    "analog": false,
+    "seconds": true,
+    "size": 1.25,
+    "timezone": "auto",
+    "worldclocks": false
+  },
+  "css": "",
+  "dark": "system",
+  "dateformat": "auto",
+  "favicon": "",
+  "font": {
+    "family": "",
+    "size": "17",
+    "system": true,
+    "weight": "400",
+    "weightlist": []
+  },
+  "greeting": "",
+  "greetingscustom": {
+    "afternoon": "",
+    "evening": "",
+    "morning": "",
+    "night": ""
+  },
+  "greetingsize": "2.9",
+  "greetingsmode": "auto",
+  "hide": {
+    "greetings": true
+  },
+  "lang": "en",
+  "linkbackgrounds": false,
+  "linkgroups": {
+    "groups": [
+      "default"
+    ],
+    "on": true,
+    "pinned": [],
+    "selected": "default",
+    "synced": []
+  },
+  "linkiconradius": 1.1,
+  "linknewtab": false,
+  "linksaieiop": {
+    "_id": "linksaieiop",
+    "order": 15,
+    "parent": "default",
+    "title": "reddit",
+    "url": "https://www.reddit.com/?feed=home"
+  },
+  "linkschihaq": {
+    "_id": "linkschihaq",
+    "folder": true,
+    "order": 11,
+    "parent": "default",
+    "title": ""
+  },
+  "linksdlamnf": {
+    "_id": "linksdlamnf",
+    "order": 0,
+    "parent": "default",
+    "title": "YouTube",
+    "url": "https://www.youtube.com/"
+  },
+  "linksdndini": {
+    "_id": "linksdndini",
+    "icon": {
+      "type": "auto",
+      "value": "https://services.bonjourr.fr/favicon/blob/https://www.deepseek.com/?r=1764074610515"
+    },
+    "order": 0,
+    "parent": "linksgiegqj",
+    "title": "DeepSeek | 深度求索",
+    "url": "https://www.deepseek.com/"
+  },
+  "linksdrdbik": {
+    "_id": "linksdrdbik",
+    "order": 2,
+    "parent": "default",
+    "title": "4pda.to/vpn",
+    "url": "https://4pda.to/forum/index.php?showforum=1192"
+  },
+  "linkseoinad": {
+    "_id": "linkseoinad",
+    "order": 14,
+    "parent": "default",
+    "title": "excalidraw",
+    "url": "https://excalidraw.com/"
+  },
+  "linkseraako": {
+    "_id": "linkseraako",
+    "order": 16,
+    "parent": "default",
+    "title": "soundcloud.com",
+    "url": "https://soundcloud.com"
+  },
+  "linksfcfkje": {
+    "_id": "linksfcfkje",
+    "order": 2,
+    "parent": "linkschihaq",
+    "title": "tuta.com",
+    "url": "https://app.tuta.com/mail/OVCc0_8-1s-9/Og1riqv--7-9?mail"
+  },
+  "linksggobnm": {
+    "_id": "linksggobnm",
+    "order": 9,
+    "parent": "default",
+    "title": "notebooklm",
+    "url": "https://notebooklm.google/"
+  },
+  "linksgiegqj": {
+    "_id": "linksgiegqj",
+    "folder": true,
+    "order": 10,
+    "parent": "default",
+    "title": ""
+  },
+  "linkshakjfk": {
+    "_id": "linkshakjfk",
+    "icon": {
+      "type": "auto"
+    },
+    "order": 3,
+    "parent": "linkschihaq",
+    "title": "Gmail",
+    "url": "https://mail.google.com/mail/u/0/#inbox"
+  },
+  "linkshijnrf": {
+    "_id": "linkshijnrf",
+    "order": 3,
+    "parent": "default",
+    "title": "GitHub",
+    "url": "https://github.com/"
+  },
+  "linkshindob": {
+    "_id": "linkshindob",
+    "order": 12,
+    "parent": "default",
+    "title": "reverso",
+    "url": "https://reverso.net"
+  },
+  "linksiaeboj": {
+    "_id": "linksiaeboj",
+    "order": 3,
+    "parent": "linksgiegqj",
+    "title": "app.presentations.ai",
+    "url": "https://app.presentations.ai"
+  },
+  "linksidojio": {
+    "_id": "linksidojio",
+    "order": 2,
+    "parent": "linksgiegqj",
+    "title": "notebooklm",
+    "url": "https://notebooklm.google.com/notebook/db085c11-bf8c-4c6e-b007-af779ad0eb34"
+  },
+  "linksikjqnk": {
+    "_id": "linksikjqnk",
+    "order": 13,
+    "parent": "default",
+    "title": "leetcode",
+    "url": "https://leetcode.com/problemset/"
+  },
+  "linksjfmmpb": {
+    "_id": "linksjfmmpb",
+    "order": 1,
+    "parent": "linksgiegqj",
+    "title": "perplexity",
+    "url": "https://www.perplexity.ai/"
+  },
+  "linkslqrara": {
+    "_id": "linkslqrara",
+    "order": 1,
+    "parent": "linkschihaq",
+    "title": "atomicmail",
+    "url": "https://atomicmail.io/app/mailbox/69a937506497a20e01c7151c"
+  },
+  "linksmkelfg": {
+    "_id": "linksmkelfg",
+    "order": 4,
+    "parent": "default",
+    "title": "FunPay — биржа игровых ценностей",
+    "url": "https://funpay.com/"
+  },
+  "linksonabha": {
+    "_id": "linksonabha",
+    "order": 1,
+    "parent": "default",
+    "title": "RuTracker.org",
+    "url": "https://rutracker.org/"
+  },
+  "linkspomfjk": {
+    "_id": "linkspomfjk",
+    "order": 5,
+    "parent": "default",
+    "title": "Guitar Fretboard: Virtual Fretboard Chart with All Notes",
+    "url": "https://muted.io/guitar-fretboard/"
+  },
+  "linksqhhhfg": {
+    "_id": "linksqhhhfg",
+    "order": 6,
+    "parent": "default",
+    "title": "roadmap",
+    "url": "https://roadmap.sh/"
+  },
+  "linksqnkmre": {
+    "_id": "linksqnkmre",
+    "order": 8,
+    "parent": "default",
+    "title": "discord.com",
+    "url": "https://discord.com"
+  },
+  "linksrgfjjh": {
+    "_id": "linksrgfjjh",
+    "order": 7,
+    "parent": "default",
+    "title": "codesandbox",
+    "url": "https://codesandbox.io/"
+  },
+  "linksrjderg": {
+    "_id": "linksrjderg",
+    "order": 0,
+    "parent": "linkschihaq",
+    "title": "protonMail",
+    "url": "https://mail.proton.me/u/0/inbox"
+  },
+  "linksrow": "16",
+  "linkstyle": "large",
+  "linktitles": true,
+  "main": true,
+  "move": {
+    "layouts": {
+      "single": {
+        "grid": [
+          [
+            "time"
+          ],
+          [
+            "main"
+          ],
+          [
+            "searchbar"
+          ],
+          [
+            "quicklinks"
+          ],
+          [
+            "quotes"
+          ]
+        ],
+        "items": {}
+      }
+    },
+    "selection": "single"
+  },
+  "notes": {
+    "align": "left",
+    "on": false,
+    "opacity": 0.1,
+    "text": "## Редактировать эту заметку!\n\n[ ] С заголовками, списками и флажками в формате markdown\n\n[ ] Узнайте больше на https://bonjourr.fr/docs/overview",
+    "width": 40
+  },
+  "pagegap": 1,
+  "pagewidth": 1600,
+  "pomodoro": {
+    "end": 0,
+    "focus": false,
+    "history": [],
+    "mode": "pomodoro",
+    "on": false,
+    "pause": 0,
+    "sound": true,
+    "timeFor": {
+      "break": 300,
+      "longbreak": 1200,
+      "pomodoro": 1500
+    }
+  },
+  "quicklinks": true,
+  "quotes": {
+    "author": true,
+    "frequency": "hour",
+    "last": 1778440556599,
+    "on": true,
+    "type": "stoic"
+  },
+  "review": -1,
+  "searchbar": {
+    "background": "#fff4",
+    "engine": "google",
+    "newtab": false,
+    "on": true,
+    "opacity": 0.1,
+    "placeholder": "",
+    "request": "",
+    "suggestions": true,
+    "width": 60
+  },
+  "showall": true,
+  "supporters": {
+    "closed": false,
+    "enabled": true,
+    "month": 12
+  },
+  "tabtitle": "",
+  "textShadow": 0.2,
+  "time": true,
+  "weather": {
+    "city": "yekaterinburg",
+    "forecast": "auto",
+    "geolocation": "approximate",
+    "moreinfo": "none",
+    "provider": "",
+    "temperature": "actual",
+    "unit": "metric"
+  },
+  "worldclocks": []
+}
