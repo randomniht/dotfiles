@@ -24,6 +24,10 @@
             "format": "{name}"
         },
         {
+            "type": "gpu",
+            "key": "GPU"
+        },
+        {
             "type": "memory",
             "key": "MEM"
         },
@@ -41,9 +45,19 @@
             "key": "BAT"
         },
         {
+            "type": "de",
+            "key": "DE"
+        },
+        {
+            "type": "wm",
+            "key": "WM"
+        },
+        {
             "type": "media",
-            "key": "MPL",
-            "format": "{player}: {artist} - {song}"
+            "key": "Media",
+            "format": "{artist} - {title}",
+            "player": "auto",
+            "showWhenEmpty": true
         },
         {
             "type": "colors",
