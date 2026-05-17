@@ -13,7 +13,7 @@ set -U fish_greeting ""
  fish_add_path ~/.local/bin/
 
 alias l="ls -lh"
- alias ls="exa"
+alias ls="exa"
 alias nivm="nvim"
 alias open="xdg-open"
 alias findme="grep -nr"
@@ -21,7 +21,8 @@ alias nano="micro"
 alias zapon="sudo systemctl start zapret"
 alias zapof="sudo systemctl stop zapret"
 alias chway="killall -USR1 waybar"
-alias confish="micro .config/fish/config.fish"
+alias confish="micro ~/dotfiles/fish/config.fish"
 alias upwall="sudo ./bash_fish_skr/wallpaper.sh"
 alias fastfetch='fastfetch -c 28.jsonc'
 alias ft='clear && fastfetch'
+alias muxff="$HOME/dotfiles/scripts/mux_vlc/mux_inter.fish"
