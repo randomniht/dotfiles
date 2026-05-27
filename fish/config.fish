@@ -19,6 +19,11 @@ end
 function wgdw
     sudo wg-quick down $argv[1]
 end
+# git add . && git commit -m "" && git push origin main
+
+function gitsp
+    git add . && git commit -m "$argv[1]" && git push origin main
+end    
 
 function v2a
     echo "Запуск служб v2rayA..."
