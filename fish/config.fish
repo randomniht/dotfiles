@@ -12,12 +12,38 @@ set -U fish_greeting ""
  fish_add_path ~/.config/emacs/bin/
  fish_add_path ~/.local/bin/
 
+function update_bridges
+    echo "Скачивание свежих мостов с GitHub..."
+    curl -sL "https://gitea.com/igareck/vpn-configs-for-russia/raw/branch/main/TOR-BRIDGES/TOR_BRIDGES_ALL.txt" -o ~/.local/share/onionhop/my_bridges.txt
+    echo "Готово! Файл обновлен."
+end
+# connect --smart off --mode tun --bridges on --bridge-type custom --bridge-source offline
+function onitun
+    sudo ~/.local/share/onionhop/OnionHopV3.Cli connect --smart off --mode tun --bridges on --bridge-type obfs4 --bridge-source offline --hold on
+end
+
+
+
 function wgup
-    sudo wg-quick up $argv[1]
+    if test -f $argv
+        sudo wg-quick up (realpath $argv)
+    else if test -f "$argv.conf"
+        sudo wg-quick up (realpath "$argv.conf")
+    else
+        set -l interface (string replace -r '\.conf$' '' $argv)
+        sudo wg-quick up $interface
+    end
 end
 
 function wgdw
-    sudo wg-quick down $argv[1]
+    if test -f $argv
+        sudo wg-quick down (realpath $argv)
+    else if test -f "$argv.conf"
+        sudo wg-quick down (realpath "$argv.conf")
+    else
+        set -l interface (string replace -r '\.conf$' '' $argv)
+        sudo wg-quick down $interface
+    end
 end
 # git add . && git commit -m "" && git push origin main
 
@@ -54,3 +80,4 @@ alias fastfetch='fastfetch -c 28.jsonc'
 alias ft='clear && fastfetch'
 alias muxff="$HOME/dotfiles/scripts/mux_vlc/mux_inter.fish"
 alias ipnow="curl ipinfo.io"
+alias onihop="~/.local/share/onionhop/OnionHopV3.Cli"
