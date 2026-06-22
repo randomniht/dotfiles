@@ -12,11 +12,21 @@ set -U fish_greeting ""
  fish_add_path ~/.config/emacs/bin/
  fish_add_path ~/.local/bin/
 
+
+
 function update_bridges
     echo "Скачивание свежих мостов с GitHub..."
-    curl -sL "https://gitea.com/igareck/vpn-configs-for-russia/raw/branch/main/TOR-BRIDGES/TOR_BRIDGES_ALL.txt" -o ~/.local/share/onionhop/my_bridges.txt
+    curl -sL "https://raw.githack.com/igareck/vpn-configs-for-russia/main/TOR-BRIDGES/TOR_BRIDGES_TOP100.txt" -o ~/.local/share/onionhop/my_bridges.txt
     echo "Готово! Файл обновлен."
 end
+
+
+
+# function update_bridges
+#     echo "Скачивание свежих мостов с GitHub..."
+#     curl -sL "https://gitea.com/igareck/vpn-configs-for-russia/raw/branch/main/TOR-BRIDGES/TOR_BRIDGES_ALL.txt" -o ~/.local/share/onionhop/my_bridges.txt
+#     echo "Готово! Файл обновлен."
+# end
 # connect --smart off --mode tun --bridges on --bridge-type custom --bridge-source offline
 function onitun
     sudo ~/.local/share/onionhop/OnionHopV3.Cli connect --smart off --mode tun --bridges on --bridge-type obfs4 --bridge-source offline --hold on
@@ -51,6 +61,11 @@ function gitsp
     git add . && git commit -m "$argv[1]" && git push origin main
 end    
 
+function stowm
+    rm -rf ~/.config/"$argv[1]"  && mkdir -p ~/.config/"$argv[1]"/ &&  stow -v --target=$HOME/.config/"$argv[1]"  "$argv[1]"/
+end
+
+
 function v2a
     echo "Запуск служб v2rayA..."
     sudo systemctl start v2raya xray
@@ -73,6 +88,13 @@ alias nano="micro"
 alias zapon="sudo systemctl start zapret"
 alias zapinf="sudo systemctl status zapret"
 alias zapof="sudo systemctl stop zapret"
+# zapret_discord_youtube.service = service
+alias uzapon="/home/$USER/programs/zapret-discord-youtube-linux/service.sh service start"
+alias uzapinf="/home/$USER/programs/zapret-discord-youtube-linux/service.sh service status"
+alias uzapof="/home/$USER/programs/zapret-discord-youtube-linux/service.sh service stop"
+
+
+
 alias chway="killall -USR1 waybar"
 alias confish="micro ~/dotfiles/fish/config.fish"
 alias upwall="sudo ./bash_fish_skr/wallpaper.sh"

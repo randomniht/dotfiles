@@ -17,3 +17,6 @@ options edns0 trust-ad
 # Configuration file for NetworkManager.
 # See "man 5 NetworkManager.conf" for details.
 might do
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+and download tor and add bridges
