@@ -103,3 +103,5 @@ alias ft='clear && fastfetch'
 alias muxff="$HOME/dotfiles/scripts/mux_vlc/mux_inter.fish"
 alias ipnow="curl ipinfo.io"
 alias onihop="~/.local/share/onionhop/OnionHopV3.Cli"
+alias v2str="sudo systemctl start v2raya xray"
+alias v2stp="sudo systemctl stop v2raya xray"
