@@ -1,0 +1,419 @@
+{
+  "about": {
+    "browser": "chrome",
+    "version": "22.2.1"
+  },
+  "showall": true,
+  "lang": "en",
+  "dark": "system",
+  "favicon": "",
+  "tabtitle": "",
+  "greeting": "",
+  "greetingsize": "2.9",
+  "greetingsmode": "auto",
+  "pagegap": 1,
+  "pagewidth": 1600,
+  "time": true,
+  "main": true,
+  "dateformat": "auto",
+  "quicklinks": true,
+  "textShadow": 0.2,
+  "announcements": "major",
+  "review": -1,
+  "css": "",
+  "hide": {
+    "greetings": true
+  },
+  "linkstyle": "large",
+  "linktitles": true,
+  "linkbackgrounds": false,
+  "linknewtab": false,
+  "linksrow": "16",
+  "linkiconradius": 1.1,
+  "linkgroups": {
+    "on": true,
+    "selected": "default",
+    "groups": [
+      "default"
+    ],
+    "pinned": [],
+    "synced": []
+  },
+  "backgrounds": {
+    "type": "images",
+    "fadein": 0,
+    "blur": 25,
+    "bright": 0.25,
+    "frequency": "pause",
+    "color": "#185A63",
+    "urls": "",
+    "images": "bonjourr-images-daylight",
+    "videos": "bonjourr-videos-daylight",
+    "mute": true,
+    "queries": {
+      "unsplash-images-search": ""
+    },
+    "texture": {
+      "type": "none"
+    },
+    "pausedImage": {
+      "color": "#405973",
+      "urls": {
+        "full": "https://images.unsplash.com/photo-1707755211367-d3eada35e2a5?ixid=M3w4ODczOHwwfDF8YWxsfHx8fHx8fHx8MTc1OTU5NjI5MHw&ixlib=rb-4.1.0&auto=format&fit=crop&crop=entropy&h=1080&w=1920&q=80",
+        "medium": "https://images.unsplash.com/photo-1707755211367-d3eada35e2a5?ixid=M3w4ODczOHwwfDF8YWxsfHx8fHx8fHx8MTc1OTU5NjI5MHw&ixlib=rb-4.1.0&auto=format&fit=crop&crop=entropy&h=540&w=960&q=50",
+        "small": "https://images.unsplash.com/photo-1707755211367-d3eada35e2a5?ixid=M3w4ODczOHwwfDF8YWxsfHx8fHx8fHx8MTc1OTU5NjI5MHw&ixlib=rb-4.1.0&auto=format&fit=crop&crop=entropy&h=108&w=192&q=60"
+      },
+      "download": "https://unsplash.com/photos/kuLkCdxBheY/download?ixid=M3w4ODczOHwwfDF8YWxsfHx8fHx8fHx8MTc1OTU5NjI5MHw",
+      "exif": {
+        "aperture": "4.0",
+        "exposure_time": "1/640",
+        "focal_length": "12.5",
+        "iso": 400,
+        "make": "FUJIFILM",
+        "model": "X-T4",
+        "name": "FUJIFILM, X-T4"
+      },
+      "name": "Francesco Ungaro",
+      "format": "image",
+      "page": "https://unsplash.com/photos/a-snow-covered-mountain-range-with-trees-in-the-foreground-kuLkCdxBheY",
+      "username": "francesco_ungaro"
+    }
+  },
+  "clock": {
+    "size": 1.25,
+    "ampm": false,
+    "analog": false,
+    "seconds": true,
+    "ampmlabel": false,
+    "ampmposition": "top-left",
+    "worldclocks": false,
+    "timezone": "auto"
+  },
+  "worldclocks": [],
+  "analogstyle": {
+    "face": "none",
+    "hands": "modern",
+    "shape": "round",
+    "border": "#ffff",
+    "background": "#fff2"
+  },
+  "weather": {
+    "city": "yekaterinburg",
+    "unit": "metric",
+    "show_unit": false,
+    "provider": "",
+    "moreinfo": "none",
+    "forecast": "auto",
+    "temperature": "actual",
+    "geolocation": "approximate"
+  },
+  "greetingscustom": {
+    "morning": "",
+    "afternoon": "",
+    "evening": "",
+    "night": ""
+  },
+  "notes": {
+    "on": false,
+    "width": 40,
+    "opacity": 0.1,
+    "align": "left",
+    "text": "## Редактировать эту заметку!\n\n[ ] С заголовками, списками и флажками в формате markdown\n\n[ ] Узнайте больше на https://bonjourr.fr/docs/overview"
+  },
+  "searchbar": {
+    "on": true,
+    "background": "#fff4",
+    "width": 60,
+    "opacity": 0.1,
+    "newtab": false,
+    "suggestions": true,
+    "engine": "google",
+    "request": "",
+    "placeholder": ""
+  },
+  "quotes": {
+    "on": true,
+    "type": "stoic",
+    "frequency": "hour",
+    "author": true,
+    "last": 1783526724753
+  },
+  "pomodoro": {
+    "on": false,
+    "mode": "pomodoro",
+    "pause": 0,
+    "end": 0,
+    "timeFor": {
+      "pomodoro": 1500,
+      "break": 300,
+      "longbreak": 1200
+    },
+    "focus": false,
+    "sound": true,
+    "volume": "marimba",
+    "alarm": "marimba",
+    "history": []
+  },
+  "font": {
+    "color": "#ffffff",
+    "size": "17",
+    "family": "",
+    "system": true,
+    "weightlist": [],
+    "weight": "400"
+  },
+  "supporters": {
+    "enabled": true,
+    "closed": false,
+    "month": 12
+  },
+  "move": {
+    "selection": "single",
+    "layouts": {
+      "single": {
+        "grid": [
+          [
+            "time"
+          ],
+          [
+            "main"
+          ],
+          [
+            "searchbar"
+          ],
+          [
+            "quicklinks"
+          ],
+          [
+            "quotes"
+          ]
+        ],
+        "items": {}
+      }
+    }
+  },
+  "linksaieiop": {
+    "_id": "linksaieiop",
+    "order": 15,
+    "parent": "default",
+    "title": "reddit",
+    "url": "https://www.reddit.com/?feed=home"
+  },
+  "linkschihaq": {
+    "_id": "linkschihaq",
+    "order": 11,
+    "parent": "default",
+    "title": "",
+    "folder": true
+  },
+  "linksdlamnf": {
+    "_id": "linksdlamnf",
+    "order": 0,
+    "parent": "default",
+    "title": "YouTube",
+    "url": "https://www.youtube.com/"
+  },
+  "linksdndini": {
+    "_id": "linksdndini",
+    "order": 0,
+    "parent": "linksgiegqj",
+    "title": "DeepSeek | 深度求索",
+    "url": "https://www.deepseek.com/",
+    "icon": {
+      "type": "auto",
+      "value": "https://services.bonjourr.fr/favicon/blob/https://www.deepseek.com/?r=1764074610515"
+    }
+  },
+  "linksdrdbik": {
+    "_id": "linksdrdbik",
+    "order": 2,
+    "parent": "default",
+    "title": "4pda.to/vpn",
+    "url": "https://4pda.to/forum/index.php?showforum=1192"
+  },
+  "linkseoinad": {
+    "_id": "linkseoinad",
+    "order": 14,
+    "parent": "default",
+    "title": "excalidraw",
+    "url": "https://excalidraw.com/"
+  },
+  "linkseraako": {
+    "_id": "linkseraako",
+    "order": 16,
+    "parent": "default",
+    "title": "soundcloud.com",
+    "url": "https://soundcloud.com"
+  },
+  "linksfcfkje": {
+    "_id": "linksfcfkje",
+    "order": 2,
+    "parent": "linkschihaq",
+    "title": "tuta.com",
+    "url": "https://app.tuta.com/mail/OVCc0_8-1s-9/Og1riqv--7-9?mail"
+  },
+  "linksggobnm": {
+    "_id": "linksggobnm",
+    "order": 9,
+    "parent": "default",
+    "title": "notebooklm",
+    "url": "https://notebooklm.google/"
+  },
+  "linksgiegqj": {
+    "_id": "linksgiegqj",
+    "order": 10,
+    "parent": "default",
+    "title": "",
+    "folder": true
+  },
+  "linkshakjfk": {
+    "_id": "linkshakjfk",
+    "order": 3,
+    "parent": "linkschihaq",
+    "title": "Gmail",
+    "url": "https://mail.google.com/mail/u/0/#inbox",
+    "icon": {
+      "type": "auto"
+    }
+  },
+  "linkshijnrf": {
+    "_id": "linkshijnrf",
+    "order": 3,
+    "parent": "default",
+    "title": "GitHub",
+    "url": "https://github.com/"
+  },
+  "linkshindob": {
+    "_id": "linkshindob",
+    "order": 12,
+    "parent": "default",
+    "title": "reverso",
+    "url": "https://reverso.net"
+  },
+  "linksiaeboj": {
+    "_id": "linksiaeboj",
+    "order": 3,
+    "parent": "linksgiegqj",
+    "title": "app.presentations.ai",
+    "url": "https://app.presentations.ai"
+  },
+  "linksidojio": {
+    "_id": "linksidojio",
+    "order": 2,
+    "parent": "linksgiegqj",
+    "title": "notebooklm",
+    "url": "https://notebooklm.google.com/notebook/db085c11-bf8c-4c6e-b007-af779ad0eb34"
+  },
+  "linksikjqnk": {
+    "_id": "linksikjqnk",
+    "order": 13,
+    "parent": "default",
+    "title": "leetcode",
+    "url": "https://leetcode.com/problemset/"
+  },
+  "linksjfmmpb": {
+    "_id": "linksjfmmpb",
+    "order": 1,
+    "parent": "linksgiegqj",
+    "title": "perplexity",
+    "url": "https://www.perplexity.ai/"
+  },
+  "linksjlrmim": {
+    "_id": "linksjlrmim",
+    "order": 19,
+    "parent": "default",
+    "title": "google",
+    "url": "https://www.google.com/"
+  },
+  "linkslilgdc": {
+    "_id": "linkslilgdc",
+    "order": 21,
+    "parent": "default",
+    "title": "wireguard",
+    "url": "https://www.vpnjantit.com/free-wireguard"
+  },
+  "linkslqrara": {
+    "_id": "linkslqrara",
+    "order": 1,
+    "parent": "linkschihaq",
+    "title": "atomicmail",
+    "url": "https://atomicmail.io/app/mailbox/69a937506497a20e01c7151c"
+  },
+  "linkslrgpee": {
+    "_id": "linkslrgpee",
+    "order": 20,
+    "parent": "default",
+    "title": "openrouter",
+    "url": "https://openrouter.ai/"
+  },
+  "linksmbanqn": {
+    "_id": "linksmbanqn",
+    "order": 17,
+    "parent": "default",
+    "title": "localhost:2017",
+    "url": "http://localhost:2017/"
+  },
+  "linksmkelfg": {
+    "_id": "linksmkelfg",
+    "order": 4,
+    "parent": "default",
+    "title": "FunPay — биржа игровых ценностей",
+    "url": "https://funpay.com/"
+  },
+  "linksonabha": {
+    "_id": "linksonabha",
+    "order": 1,
+    "parent": "default",
+    "title": "RuTracker.org",
+    "url": "https://rutracker.org/"
+  },
+  "linksphfamp": {
+    "_id": "linksphfamp",
+    "order": 22,
+    "parent": "default",
+    "title": "vimium",
+    "url": "https://vimium.github.io/"
+  },
+  "linkspomfjk": {
+    "_id": "linkspomfjk",
+    "order": 5,
+    "parent": "default",
+    "title": "Guitar Fretboard: Virtual Fretboard Chart with All Notes",
+    "url": "https://muted.io/guitar-fretboard/"
+  },
+  "linksqhdlkl": {
+    "_id": "linksqhdlkl",
+    "order": 18,
+    "parent": "default",
+    "title": "presets/tl-gfx",
+    "url": "https://tonelib.ru/presets/tl-gfx/community.html"
+  },
+  "linksqhhhfg": {
+    "_id": "linksqhhhfg",
+    "order": 6,
+    "parent": "default",
+    "title": "roadmap",
+    "url": "https://roadmap.sh/"
+  },
+  "linksqnkmre": {
+    "_id": "linksqnkmre",
+    "order": 8,
+    "parent": "default",
+    "title": "discord.com",
+    "url": "https://discord.com"
+  },
+  "linksrgfjjh": {
+    "_id": "linksrgfjjh",
+    "order": 7,
+    "parent": "default",
+    "title": "codesandbox",
+    "url": "https://codesandbox.io/"
+  },
+  "linksrjderg": {
+    "_id": "linksrjderg",
+    "order": 0,
+    "parent": "linkschihaq",
+    "title": "protonMail",
+    "url": "https://mail.proton.me/u/0/inbox"
+  }
+}
