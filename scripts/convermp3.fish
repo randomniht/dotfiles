@@ -1,14 +1,21 @@
 #!/usr/bin/env fish
 
-if test (count $argv) -eq 0
-    set PATTERN *
+echo "Hi! What file extension do you want to convert? (Type extensions separated by space, or press Enter / type * for ALL):"
+read -l user_input
+
+if test -z "$user_input" -o "$user_input" = "*"
+    set files_to_convert *
 else
-    set ext_list (string join "," $argv)
-    set PATTERN *.{$ext_list}
+    set extensions (string split " " $user_input)
+    for ext in $extensions
+        set files_to_convert $files_to_convert *.$ext
+    end
 end
 
-for file in (eval echo $PATTERN)
-    if not test -e "$file"
+set converted_count 0
+
+for file in $files_to_convert
+    if not test -f "$file"
         continue
     end
     
@@ -20,6 +27,11 @@ for file in (eval echo $PATTERN)
 
     echo "Converting: $file"
     ffmpeg -i "$file" -b:a 320k "$basename.mp3"
+    set converted_count (math $converted_count + 1)
 end
 
-echo "Done!"
+if test $converted_count -eq 0
+    echo "No matching files found to convert."
+else
+    echo "Done! Successfully converted $converted_count files."
+end
