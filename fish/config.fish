@@ -115,3 +115,4 @@ alias bat-save="echo 1 | sudo tee /sys/bus/platform/drivers/ideapad_acpi/PNP0C09
 
 alias v2str="sudo systemctl start v2raya xray"
 alias v2stp="sudo systemctl stop v2raya xray"
+#test
