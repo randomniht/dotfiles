@@ -105,3 +105,20 @@ alias ipnow="curl ipinfo.io"
 alias onihop="~/.local/share/onionhop/OnionHopV3.Cli"
 alias v2str="sudo systemctl start v2raya xray"
 alias v2stp="sudo systemctl stop v2raya xray"
+alias confupt="source ~/dotfiles/fish/config.fish"
+# Зарядить до 100% (отключает режим сбережения Lenovo)
+# Charge to 100% (disables Lenovo conservation mode)
+alias bat-full="echo 0 | sudo tee /sys/bus/platform/drivers/ideapad_acpi/PNP0C09:00/conservation_mode"
+# Вернуть режим сбережения (зарядка до 75-80%)
+# Restore battery-saving mode (charging up to 75–80%)
+alias bat-save="echo 1 | sudo tee /sys/bus/platform/drivers/ideapad_acpi/PNP0C09:00/conservation_mode"
+
+
+
+
+
+
+
+
+alias v2str="sudo systemctl start v2raya xray"
+alias v2stp="sudo systemctl stop v2raya xray"
