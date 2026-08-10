@@ -1,5 +1,5 @@
 binds {
-
+	
     // ────────────── Keybindings ──────────────
     // https://github.com/YaLTeR/niri/wiki/Configuration:-Key-Bindings
 
@@ -11,7 +11,7 @@ binds {
     // ─── Applications ───
     // Mod+T                          hotkey-overlay-title="Open Terminal: Alacritty" { spawn "alacritty"; }
     Mod+T                            hotkey-overlay-title="Open Terminal: foot" { spawn "foot"; }
-
+    Mod+Shift+E { spawn "wlogout" "-b" "2"; }
     Mod+CTRL+Return                     hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
     Mod+B                               hotkey-overlay-title="Open Browser: thorium" { spawn "thorium-browser"; }
     Mod+ALT+L                           hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
