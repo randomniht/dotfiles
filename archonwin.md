@@ -133,3 +133,4 @@ fi
   cmd.exe /c "wsl.exe -d Arch"
   ```
 * **Shortcut Name**: `Arch Linux`.
+add tailescale Tailscale
