@@ -10,7 +10,7 @@ binds {
 
     // ─── Applications ───
     // Mod+T                          hotkey-overlay-title="Open Terminal: Alacritty" { spawn "alacritty"; }
-    Mod+T                            hotkey-overlay-title="Open Terminal: foot" { spawn "foot"; }
+    Mod+T                            hotkey-overlay-title="Open Terminal: ghostty" { spawn "ghostty"; }
     Mod+Shift+E { spawn "wlogout" "-b" "2"; }
     Mod+CTRL+Return                     hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
     Mod+B                               hotkey-overlay-title="Open Browser: thorium" { spawn "thorium-browser"; }
