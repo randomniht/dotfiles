@@ -3,4 +3,5 @@
 
     spawn-sh-at-startup "qs -c noctalia-shell"
 	spawn-at-startup "ghostty"
+    spawn-sh-at-startup "qs -c noctalia"
 	
