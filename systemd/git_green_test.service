@@ -1,0 +1,6 @@
+[Unit]
+Description=git_green
+
+[Service]
+Type=oneshot
+ExecStart=%h/dotfiles/scripts/green.sh
