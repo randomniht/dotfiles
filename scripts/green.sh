@@ -1,4 +1,6 @@
 #!/bin/bash
 cd $HOME/dotfiles
 export TZ=UTC
-git add . && git commit -m "green_test_$(date '+%Y-%m-%d')" && git push origin main
+d=date '+%Y-%m-%d'
+echo $(d) >> logg_green_test.txt
+git add . && git commit -m "green_test_$(d)" && git push origin main
